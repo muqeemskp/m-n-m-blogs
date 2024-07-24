@@ -1,0 +1,14 @@
+
+.dark-mode {
+    filter: invert(100%);
+    transition: all 0.5s;
+  }
+  
+  .btn-dark-mode {
+    padding: 16px;
+    line-height: 1;
+    font-size: 26px;
+    background-color: #ffe8cc;
+    border: none;
+    border: 2px solid #f0b369;
+  }

@@ -1,0 +1,140 @@
+
+button {
+    border: 1px solid #ffa94d;
+    background-color: #ffa94d;
+    font-weight: 700;
+    padding: 9px 24px;
+    cursor: pointer;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+}
+  .right{
+    display: flex;
+    gap: 10px;
+  }
+
+  .left{
+    display: flex;
+  }
+
+  p{
+    font-weight: bold;
+  }
+
+  input{
+    outline: none;
+    border: 1px solid #ffd8ae;
+    padding: 15px
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  textarea{
+    outline: none;
+    border: 1px solid #ffd8ae;
+    padding: 15px
+  }
+  .bottom-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+  }
+  .top{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9b77154;
+    border: 2px solid #ffd8ae ;
+    justify-content: space-between;
+  }
+
+  .blog-posts ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 0;
+    margin: 0; 
+    list-style: none; 
+  }
+  
+  .blog-posts li {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #ffd8ae;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-posts li:hover{
+    background-color: #ffe3c58f;
+  }
+
+  .body-text{
+
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent;
+
+  }
+
+  .title{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: transparent;
+
+  }
+
+  .archive{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .archive h1{
+    color: #7a7a7a;
+    display: flex;
+  }
+  .show-archive ul{
+    margin-top: 30px;
+  }
+
+  .show-archive li{
+    display: flex;
+    border: 2px solid #ffd8ae;
+    width: 100%;
+    height: 70px;
+    gap: 10px;
+    justify-content: space-between;
+    padding-left: 10px;
+    margin: 10px
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  p i{
+    margin-right: 3px;
+    padding-right: 0;
+  }
+  
